@@ -1,0 +1,147 @@
+/* Global Variable */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+hr{
+    margin: 80px 0;
+}
+
+body{
+    background-color: #0f172a;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+/* For Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42.5px;
+}
+
+.nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+.nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F8FAFC;
+}
+
+/* For Recent */
+
+.recent-project{
+    margin-top: 100px;
+}
+.recent-article{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+.recent-div{
+    margin-left: 50px;
+}
+
+.recent-div h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #F8FAFC;
+    margin-bottom: 15px;
+}
+
+.recent-div p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+/* For Latest */
+
+.post{
+    height: 520px;
+    width: 370px;
+    border-radius: 10px;
+    background-color: rgba(30, 41, 59, 0.4);
+}
+.latest-posts{
+    margin-top: 140px;
+}
+.bigdiv{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.post h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #F8FAFC;
+    margin: 30px 0;
+}
+.p1{
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #9CA3AF;
+    margin-bottom: 20px;
+}
+.p2{
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F8FAFC;
+}
+
+/* For footer */
+
+footer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
